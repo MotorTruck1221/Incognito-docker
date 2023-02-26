@@ -1,0 +1,13 @@
+version: "2"
+services:
+  incognito:
+    restart: unless-stopped
+    image: "motortruck1221/incognito"
+    ports:
+    #IMPORTANT: DO NOT CHANGE THE 8080 PART ONLY CHANGE THE <your port here> PART
+      - <your port here>:8080
+# network config if youi want a network config feel free to use the one below and change the name to your liking. YOU MUST RUN docker network create <your name> BEFORE RUNNING THE CONTAINER
+#networks:
+#  default:
+#    external:
+#      name: default
