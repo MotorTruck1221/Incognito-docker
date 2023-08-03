@@ -1,5 +1,5 @@
 # NOTICE:
-# Merged with [Amethys Network](https://github.com/amthystnetwork)
+# Merged with [Amethyst Network](https://github.com/amethystnetwork-dev)
 
 You CANNOT deploy to Netifly, GitHub Pages, or Cloudflare pages. [Read more here](https://amethystnetwork-dev.github.io/docs/static-hosts).
 
